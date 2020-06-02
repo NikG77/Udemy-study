@@ -2,14 +2,16 @@
   "name": "react",
   "version": "1.0.0",
   "private": true,
-  "description": "Учеьный проект Udemy",
+  "description": "Учебный проект Udemy",
   "scripts": {
     "eslint": "eslint src/**/*.js",
     "test": "npm run eslint"
   },
   "devDependencies": {
-    "eslint": "6.1.0",
-    "eslint-config-htmlacademy": "0.5.2"
+    "eslint": "^6.8.0",
+    "eslint-config-htmlacademy": "^0.5.2",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-react": "^7.20.0"
   },
   "engines": {
     "node": "10"
